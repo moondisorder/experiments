@@ -1,10 +1,16 @@
 {
-  "spriteId": null,
-  "solid": false,
+  "spriteId": {
+    "name": "spr_bed",
+    "path": "sprites/spr_bed/spr_bed.yy",
+  },
+  "solid": true,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "o_wall",
+    "path": "objects/o_wall/o_wall.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -25,7 +31,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_textbox",
+  "name": "o_bed",
   "tags": [],
   "resourceType": "GMObject",
 }
