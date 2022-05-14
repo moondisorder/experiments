@@ -1,7 +1,6 @@
+//var hor= (keyboard_check(vk_right)-keyboard_check(vk_left))
 
-//hspd= (keyboard_check(vk_right)-keyboard_check(vk_left)) *spd
-
-//vspd = (keyboard_check(vk_down)-keyboard_check(vk_up))*spd
+//var ver = (keyboard_check(vk_down)-keyboard_check(vk_up))
 
 
 if keyboard_check(vk_left){
@@ -24,3 +23,5 @@ sprite_index=spr_girl_down
 y+=dist
 }
 
+
+show_debug_message("Does instance exist of textbox="+string(o_textbox))
