@@ -48,6 +48,7 @@
     {"id":{"name":"o_cuttle","path":"objects/o_cuttle/o_cuttle.yy",},"order":1,},
     {"id":{"name":"spr_girl_up","path":"sprites/spr_girl_up/spr_girl_up.yy",},"order":4,},
     {"id":{"name":"o_control","path":"objects/o_control/o_control.yy",},"order":2,},
+    {"id":{"name":"spr_sand","path":"sprites/spr_sand/spr_sand.yy",},"order":15,},
     {"id":{"name":"o_controller","path":"objects/o_controller/o_controller.yy",},"order":2,},
     {"id":{"name":"spr_rock2","path":"sprites/spr_rock2/spr_rock2.yy",},"order":11,},
     {"id":{"name":"o_environment","path":"objects/o_environment/o_environment.yy",},"order":8,},
