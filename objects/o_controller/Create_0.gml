@@ -1,9 +1,13 @@
 countdown=10*room_speed
 gameOver=false;
 global.Tries=0
+global.Score=0;
+global.Shells=0;
 maxTries=10;
 
-global.Shells=0;
+global.sparkleDepth=-9000;
+
+
 //declare our assets
 enum assetType {
 	natural,
@@ -17,9 +21,15 @@ naturalAssets=[o_kelp1,o_kelp2];
 obstructionAssets=[o_rock1,o_rock2];
 builtAssets=[];
 rubbishAssets=[o_plastic,o_plastic2];
-miscAssets=[];
-assets = [naturalAssets,obstructionAssets,builtAssets,rubbishAssets,miscAssets];
-nAssets = [20,5,0,3,0];
+specialAssets=[o_anchor];
+assets = [
+	naturalAssets,
+	obstructionAssets,
+	builtAssets,
+	rubbishAssets,
+	specialAssets
+];
+nAssets = [20,5,0,3,1];
 
 //allocation grid
 agrid = array_create(gridSize,10)
@@ -75,8 +85,14 @@ var xy = gridToRoom(playerCell,agrid,gridSize);
 instance_create_depth(xy[0],xy[1],-2000,o_cuttle);
 
 
-///camera
+//place bubbles 
+var xy = gridToRoom(playerCell,agrid,gridSize)
+instance_create_depth(xy[0],400,-6000,o_bubble);
+//instance_create_depth(xy[0],xy[1],-6000,o_bubble);
+//instance_create_depth(xy[0],xy[1],-6000,o_bubble);
 
+///camera
+/*
 view_enabled = true;
 view_visible[0] = true;
 
@@ -108,3 +124,5 @@ surface_resize(application_surface, 960, 540);
 
 xx= camera_get_view_x(view_camera[0])
 yy= camera_get_view_y(view_camera[0])
+
+//environmental tidbits

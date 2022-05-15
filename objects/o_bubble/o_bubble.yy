@@ -1,16 +1,13 @@
 {
   "spriteId": {
-    "name": "spr_kelp2",
-    "path": "sprites/spr_kelp2/spr_kelp2.yy",
+    "name": "spr_bubble",
+    "path": "sprites/spr_bubble/spr_bubble.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "o_environment",
-    "path": "objects/o_environment/o_environment.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -23,7 +20,9 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -31,7 +30,7 @@
     "path": "folders/Objects/environment.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o_kelp2",
+  "name": "o_bubble",
   "tags": [],
   "resourceType": "GMObject",
 }

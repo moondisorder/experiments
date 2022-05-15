@@ -1,16 +1,10 @@
 {
-  "spriteId": {
-    "name": "spr_kelp2",
-    "path": "sprites/spr_kelp2/spr_kelp2.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "o_environment",
-    "path": "objects/o_environment/o_environment.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -27,11 +21,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "environment",
-    "path": "folders/Objects/environment.yy",
+    "name": "Objects",
+    "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o_kelp2",
+  "name": "o_collectibles",
   "tags": [],
   "resourceType": "GMObject",
 }

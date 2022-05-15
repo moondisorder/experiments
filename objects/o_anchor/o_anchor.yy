@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_kelp2",
-    "path": "sprites/spr_kelp2/spr_kelp2.yy",
+    "name": "spr_anchor",
+    "path": "sprites/spr_anchor/spr_anchor.yy",
   },
   "solid": false,
   "visible": true,
@@ -31,7 +31,7 @@
     "path": "folders/Objects/environment.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o_kelp2",
+  "name": "o_anchor",
   "tags": [],
   "resourceType": "GMObject",
 }
