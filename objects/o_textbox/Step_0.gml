@@ -1,11 +1,9 @@
-x=o_girl.camW
-y=o_girl.camH
-
 if keyboard_check_pressed(vk_space){
-	if o_girl.curr<o_girl.txtLast{
-		o_girl.curr++
+show_debug_message("Does instance exist of textbox="+string(o_textbox))
+		if o1.curr<o1.txtLast{
+			o1.curr++
+		}
+		else {
+			instance_destroy();
+		}
 	}
-	else {
-		instance_destroy();
-	}
-}

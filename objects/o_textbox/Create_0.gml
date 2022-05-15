@@ -1,5 +1,7 @@
-width=100;
-height=20;
-xpos=o_girl.camW
-ypos=o_girl.camH
-txtWidth=30;
+width=250;
+height=50;
+xpos=0
+ypos=0
+txtHeight= string_height(string(o1.myTxt))
+txtWidth=200;
+txtBox=false;

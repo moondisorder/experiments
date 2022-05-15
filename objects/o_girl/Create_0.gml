@@ -8,14 +8,10 @@ txtLast=3;
 camW=camera_get_view_width(view_camera[0])-32
 camH=camera_get_view_height(view_camera[0])-32
 
-instance_create_depth(
-	camW,
-	camH,
-	-10000,
-	o_textbox
-)
+
 hspd=0;
 vspd=0;
 spd=0.5;
 dist=1
+
 

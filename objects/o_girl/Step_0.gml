@@ -24,4 +24,4 @@ y+=dist
 }
 
 
-show_debug_message("Does instance exist of textbox="+string(o_textbox))
+
