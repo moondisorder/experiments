@@ -86,8 +86,7 @@ instance_create_depth(xy[0],xy[1],-2000,o_cuttle);
 
 
 //place bubbles 
-var xy = gridToRoom(playerCell,agrid,gridSize)
-instance_create_depth(xy[0],400,-6000,o_bubble);
+
 //instance_create_depth(xy[0],xy[1],-6000,o_bubble);
 //instance_create_depth(xy[0],xy[1],-6000,o_bubble);
 

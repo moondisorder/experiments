@@ -11,3 +11,6 @@ if global.Tries>maxTries{
 	show_debug_message("game over")
 }
 
+if !instance_exists(o_bubble){
+	instance_create_depth(irandom(room_width),350,global.sparkleDepth,o_bubble);
+}
