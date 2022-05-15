@@ -9,3 +9,9 @@ show_debug_message(alarm[0])
 if image_alpha>0{
 	fadeOut=true;
 }
+*/
+
+if y<-32{
+	instance_destroy();
+	//show_debug_message("bubble destroyed")
+}
