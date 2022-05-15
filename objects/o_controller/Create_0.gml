@@ -129,5 +129,6 @@ yy= camera_get_view_y(view_camera[0])
 */
 var i;
 for(i = 0; i < maxBubbles; i++){
-	 instance_create_depth(irandom(room_width),350,global.sparkleDepth,o_bubble);
+	 var bub1 = instance_create_depth(irandom(room_width),irandom(room_height-32),global.sparkleDepth,o_bubble)
+	 var bub2 = instance_create_depth(irandom(room_width),irandom(room_height-32),global.sparkleDepth,o_bubble2);
 	}
