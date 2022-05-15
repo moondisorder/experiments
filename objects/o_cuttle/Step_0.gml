@@ -44,7 +44,7 @@ if place_meeting(x,y,inst){
 }
 
 //text box
-
+/*
 if instance_exists(o_txtbox)&& keyboard_check_pressed(vk_space){
 	with o_txtbox{
 		instance_destroy();
