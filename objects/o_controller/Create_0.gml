@@ -4,6 +4,7 @@ global.Tries=0
 global.Score=0;
 global.Shells=0;
 maxTries=10;
+maxBubbles=5;
 
 global.sparkleDepth=-9000;
 
@@ -125,3 +126,8 @@ xx= camera_get_view_x(view_camera[0])
 yy= camera_get_view_y(view_camera[0])
 
 //environmental tidbits
+*/
+var i;
+for(i = 0; i < maxBubbles; i++){
+	 instance_create_depth(irandom(room_width),350,global.sparkleDepth,o_bubble);
+	}

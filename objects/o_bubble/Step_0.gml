@@ -1,6 +1,8 @@
+/*if alarm[0]<0{
+	alarm[0]=20;
+}
 if fadeOut{
 	image_alpha -= 0.01;
-	alarm[0]=20;
 }
 show_debug_message(alarm[0])
 /*
