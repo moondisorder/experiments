@@ -1,13 +1,13 @@
-countdown=10*room_speed
 global.gameOver=false;
 global.Tries=0
 global.Score=0;
 global.shellCount=0;
+global.lvl=1;
 maxTries=10;
 maxBubbles=5;
 
+//depths
 global.guiDepth=-9000
-
 global.sparkleDepth=-9000;
 
 
@@ -32,7 +32,11 @@ assets = [
 	rubbishAssets,
 	specialAssets
 ];
-nAssets = [20,5,0,3,1];
+
+/// number of assets
+if global.lvl=1{
+	nAssets = [20,5,0,3,1];
+}
 
 //allocation grid
 agrid = array_create(gridSize,10)
@@ -70,7 +74,7 @@ for (i = 0; i < array_length(assets); i++) {
 		
 		//record where rubbish is located
 		if (i == assetType.rubbish){
-			rgrid[row,col]=true
+			rgrid[row,col]=true;
 		}
 	}
 }
@@ -79,7 +83,10 @@ for (i = 0; i < array_length(assets); i++) {
 var	idx = rand(array_length(acells));
 var shellCell = acells[idx]
 var xy = gridToRoom(shellCell,agrid,gridSize);
-instance_create_depth(xy[0],xy[1],-2000,o_shell);
+if global.lvl=1{
+	 instance_create_depth(xy[0],xy[1],-2000,o_shell);
+}
+
 show_debug_message("Shell location="+string(xy))
 
 //place player

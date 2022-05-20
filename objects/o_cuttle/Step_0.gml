@@ -1,4 +1,10 @@
 
+//clamp to room width and height
+x=clamp(x, 0, room_width-sprite_width);
+y=clamp(y, 0, room_height-sprite_height);
+
+
+
 if keyboard_check(vk_right){
 	sprite_index=spr_cuttle_right
 	x+=dist

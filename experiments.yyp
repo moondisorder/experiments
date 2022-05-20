@@ -48,6 +48,7 @@
     {"id":{"name":"o_sand","path":"objects/o_sand/o_sand.yy",},"order":6,},
     {"id":{"name":"spt_itsme","path":"sprites/spt_itsme/spt_itsme.yy",},"order":8,},
     {"id":{"name":"Sprite23","path":"sprites/Sprite23/Sprite23.yy",},"order":16,},
+    {"id":{"name":"spr_shell2","path":"sprites/spr_shell2/spr_shell2.yy",},"order":17,},
     {"id":{"name":"scr_move","path":"scripts/scr_move/scr_move.yy",},"order":0,},
     {"id":{"name":"spr_cuttle_up","path":"sprites/spr_cuttle_up/spr_cuttle_up.yy",},"order":6,},
     {"id":{"name":"getViewY","path":"scripts/getViewY/getViewY.yy",},"order":3,},
