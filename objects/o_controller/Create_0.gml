@@ -1,10 +1,12 @@
 countdown=10*room_speed
-gameOver=false;
+global.gameOver=false;
 global.Tries=0
 global.Score=0;
 global.Shells=0;
 maxTries=10;
 maxBubbles=5;
+
+global.guiDepth=-9000
 
 global.sparkleDepth=-9000;
 
