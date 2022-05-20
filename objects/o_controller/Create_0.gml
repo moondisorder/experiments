@@ -2,7 +2,7 @@ countdown=10*room_speed
 global.gameOver=false;
 global.Tries=0
 global.Score=0;
-global.Shells=0;
+global.shellCount=0;
 maxTries=10;
 maxBubbles=5;
 
