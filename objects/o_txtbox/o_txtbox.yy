@@ -26,7 +26,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "environment",
-    "path": "folders/Objects/environment.yy",
+    "path": "folders/Objects/cuttle/environment.yy",
   },
   "resourceVersion": "1.0",
   "name": "o_txtbox",

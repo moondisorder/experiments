@@ -26,8 +26,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "cuttle",
+    "path": "folders/Objects/cuttle.yy",
   },
   "resourceVersion": "1.0",
   "name": "o_sand",
