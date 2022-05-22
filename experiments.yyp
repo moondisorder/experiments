@@ -10,6 +10,7 @@
     {"id":{"name":"o_collectibles","path":"objects/o_collectibles/o_collectibles.yy",},"order":5,},
     {"id":{"name":"o_plastic","path":"objects/o_plastic/o_plastic.yy",},"order":3,},
     {"id":{"name":"o_girl","path":"objects/o_girl/o_girl.yy",},"order":3,},
+    {"id":{"name":"spr_shell3","path":"sprites/spr_shell3/spr_shell3.yy",},"order":18,},
     {"id":{"name":"tileset2","path":"tilesets/tileset2/tileset2.yy",},"order":1,},
     {"id":{"name":"o_guts","path":"objects/o_guts/o_guts.yy",},"order":5,},
     {"id":{"name":"spr_sparkle","path":"sprites/spr_sparkle/spr_sparkle.yy",},"order":4,},

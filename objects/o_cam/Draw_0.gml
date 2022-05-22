@@ -12,6 +12,7 @@ if global.gameOver{
 
 for (i = 0; i < global.shellCount ; i++;){
 show_debug_message("Draw shell")
-	draw_sprite(spr_shell,0,getViewX()+xx,getViewY());
+	var shell = draw_sprite(spr_shell,0,getViewX()+xx,getViewY());
+		//xx+=32;
 	
 }

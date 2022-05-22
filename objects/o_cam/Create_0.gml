@@ -1,2 +1,2 @@
 depth = global.guiDepth
-xx=32;
+xx=64;

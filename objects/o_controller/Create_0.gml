@@ -1,3 +1,4 @@
+randomize();
 global.gameOver=false;
 global.Tries=0
 global.Score=0;
