@@ -23,4 +23,9 @@ if isClicked>=1{
 	}
 }
 	
+if alarm[1] <= 0 {
 	
+	alarm[1]=random_range(40,200)
+	
+}
+	 

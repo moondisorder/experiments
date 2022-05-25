@@ -3,7 +3,7 @@ image_blend=myColor;
 
 ranX=random(room_width)
 ranY=random(room_height)
-
+alarm[1]=0;
 
 
 
