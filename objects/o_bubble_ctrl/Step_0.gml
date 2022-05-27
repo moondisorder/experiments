@@ -35,7 +35,7 @@ if isClicked>=1{
 	
 if alarm[1] <= 0 {
 	
-	alarm[1]=random_range(150,200)
+	alarm[1]=random_range(200,300)
 	
 }
 	
