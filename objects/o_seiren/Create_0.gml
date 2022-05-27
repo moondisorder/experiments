@@ -1,6 +1,9 @@
 enum states{
 	neutral,
-	happy
+	happy,
+	hurt
 }
 
 seirenState=states.neutral;
+
+isHurt=false;

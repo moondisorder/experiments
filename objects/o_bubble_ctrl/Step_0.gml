@@ -44,5 +44,10 @@ if sprite_index = spr_bubble1_pop{
 	if image_index >= image_number-1{
 		show_debug_message("bubble pop?")
 		instance_destroy();
+		if popped{
+			instance_create_depth(x,y,-3000,o_sparkle)
+			global.score += 5;
+			instance_destroy();
+		}
 	}
 }

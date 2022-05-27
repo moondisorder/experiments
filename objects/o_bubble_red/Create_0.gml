@@ -5,3 +5,4 @@ spd=0;
 isDragged=false;
 shift=-0.5
 vspeed=shift
+popped=false;

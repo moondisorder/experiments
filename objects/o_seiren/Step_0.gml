@@ -14,6 +14,10 @@ switch seirenState{
 	sprite_index=spr_seiren_happy;
 	break;
 	
+	case states.hurt:
+	sprite_index=spr_seiren_hurt;
+	break;
+	
 }
 
 
@@ -23,4 +27,11 @@ if mouse_check_button(mb_left){
 }
 else {
 	seirenState = states.neutral;
+}
+
+if isHurt {
+	seirenState= states.hurt
+	if alarm[0]<=0{
+		alarm[0]=30;
+	}
 }

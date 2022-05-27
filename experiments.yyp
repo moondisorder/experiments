@@ -60,6 +60,7 @@
     {"id":{"name":"s_triangle","path":"sprites/s_triangle/s_triangle.yy",},"order":8,},
     {"id":{"name":"o_wall","path":"objects/o_wall/o_wall.yy",},"order":4,},
     {"id":{"name":"spr_bubble1_pop","path":"sprites/spr_bubble1_pop/spr_bubble1_pop.yy",},"order":9,},
+    {"id":{"name":"spr_seiren_hurt","path":"sprites/spr_seiren_hurt/spr_seiren_hurt.yy",},"order":11,},
     {"id":{"name":"o_bubble2","path":"objects/o_bubble2/o_bubble2.yy",},"order":10,},
     {"id":{"name":"spr_bubble","path":"sprites/spr_bubble/spr_bubble.yy",},"order":1,},
     {"id":{"name":"o_seiren","path":"objects/o_seiren/o_seiren.yy",},"order":10,},

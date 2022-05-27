@@ -8,6 +8,7 @@ spd=0;
 isDragged=false
 shift=-0.5
 vspeed=shift
+popped=false;
 
 
 //instance_create_depth(ranX,ranY,-3000,o_bubble)
