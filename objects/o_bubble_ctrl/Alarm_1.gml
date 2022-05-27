@@ -1,4 +1,4 @@
-image_alpha-=0.2
-if image_alpha<=0{
+sprite_index=spr_bubble1_pop;
+if ev_animation_end{
 	instance_destroy();
 }

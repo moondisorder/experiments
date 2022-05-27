@@ -7,7 +7,6 @@ if place_meeting(x,y,o_seiren){
 if isClicked>=1{
 	image_xscale=1.1
 	image_yscale=1.1
-	image_blend=c_white
 		if isClicked>=2{
 		image_xscale=1.3
 		image_yscale=1.3

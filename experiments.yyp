@@ -57,6 +57,7 @@
     {"id":{"name":"o_shell","path":"objects/o_shell/o_shell.yy",},"order":7,},
     {"id":{"name":"s_triangle","path":"sprites/s_triangle/s_triangle.yy",},"order":8,},
     {"id":{"name":"o_wall","path":"objects/o_wall/o_wall.yy",},"order":4,},
+    {"id":{"name":"spr_bubble1_pop","path":"sprites/spr_bubble1_pop/spr_bubble1_pop.yy",},"order":9,},
     {"id":{"name":"o_bubble2","path":"objects/o_bubble2/o_bubble2.yy",},"order":10,},
     {"id":{"name":"spr_bubble","path":"sprites/spr_bubble/spr_bubble.yy",},"order":1,},
     {"id":{"name":"o_seiren","path":"objects/o_seiren/o_seiren.yy",},"order":10,},
@@ -104,8 +105,8 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"physics","path":"rooms/physics/physics.yy",},},
     {"roomId":{"name":"rm4_seiren","path":"rooms/rm4_seiren/rm4_seiren.yy",},},
+    {"roomId":{"name":"physics","path":"rooms/physics/physics.yy",},},
     {"roomId":{"name":"rm3","path":"rooms/rm3/rm3.yy",},},
     {"roomId":{"name":"rm2","path":"rooms/rm2/rm2.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
