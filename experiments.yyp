@@ -31,7 +31,7 @@
     {"id":{"name":"o_sparkle","path":"objects/o_sparkle/o_sparkle.yy",},"order":7,},
     {"id":{"name":"spr_tileset","path":"sprites/spr_tileset/spr_tileset.yy",},"order":7,},
     {"id":{"name":"spr_guts","path":"sprites/spr_guts/spr_guts.yy",},"order":5,},
-    {"id":{"name":"Script5","path":"scripts/Script5/Script5.yy",},"order":4,},
+    {"id":{"name":"misc","path":"scripts/misc/misc.yy",},"order":4,},
     {"id":{"name":"spr_rock1","path":"sprites/spr_rock1/spr_rock1.yy",},"order":9,},
     {"id":{"name":"Object7","path":"objects/Object7/Object7.yy",},"order":8,},
     {"id":{"name":"physics","path":"rooms/physics/physics.yy",},"order":4,},

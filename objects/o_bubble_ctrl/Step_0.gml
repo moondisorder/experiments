@@ -39,6 +39,7 @@ if alarm[1] <= 0 {
 	
 }
 	
+// bubble popping after certain animation ///
 if sprite_index = spr_bubble1_pop{
 	if image_index >= image_number-1{
 		show_debug_message("bubble pop?")
